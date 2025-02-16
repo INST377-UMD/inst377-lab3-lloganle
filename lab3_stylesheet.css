@@ -1,6 +1,6 @@
 body {
     background-color: #ffe5ec;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -40,6 +40,10 @@ main {
     margin: 20px;
 }
 
+input[type="text"]:focus {
+    width: 200px;
+}
+
 .content {
     background-color: white;
     text-align: left;
@@ -61,6 +65,3 @@ main {
     background-color: #ffc2d1;
 }
 
-input[type="text"]:focus {
-    width: 200px;
-}
